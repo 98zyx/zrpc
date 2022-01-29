@@ -50,6 +50,10 @@ type Option struct {
 * 取消协议头部的序列化/反序列化，直接从tcp流中解析头部
 * 支持动态代理
 * 支持protobuf序列化
+* 支持注册中心消息总线集群
+* RPC功能插件化
+* 添加权重负载均衡策略
+* 更为复杂细致的健康检测机制
 
 ## License
 Apache License, Version 2.0
