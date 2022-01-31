@@ -57,6 +57,7 @@ type Option struct {
 * 支持添加自定义路由策略
 * 心跳信号添加状态信息
 * 根据节点健康状态动态调整权重
+* 客户端增加异常重试机制
 
 ## License
 Apache License, Version 2.0
