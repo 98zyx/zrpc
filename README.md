@@ -54,6 +54,9 @@ type Option struct {
 * RPC功能插件化
 * 添加权重负载均衡策略
 * 更为复杂细致的健康检测机制
+* 支持添加自定义路由策略
+* 心跳信号添加状态信息
+* 根据节点健康状态动态调整权重
 
 ## License
 Apache License, Version 2.0
